@@ -1,1 +1,1 @@
-Virtual Pet Frontend
+Virtual Pet Parent Side
