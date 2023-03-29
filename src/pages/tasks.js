@@ -41,14 +41,6 @@ class Tasks extends React.Component {
                     </h2>
                     <NewTaskForm />
                 </div>
-                <div>
-                    <h2>
-                        Task list
-                    </h2>
-                    {tasks.map((task)=>{
-                        return <Task id={task["id"]} title={task["title"]} />
-                    })}
-                </div>
             </div>
     )}
 };
